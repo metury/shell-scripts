@@ -15,3 +15,8 @@ alias c='g++ -o main *.cpp'
 alias h='ghci'
 
 alias yayr='yay -R $(yay -Qtdq)'
+alias yays='yay -Syu'
+
+alias bye='exit'
+
+alias updatejoplin='wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash'
