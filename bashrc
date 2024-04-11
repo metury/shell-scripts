@@ -27,8 +27,9 @@ alias h='ghci'
 # alias zypr='sudo remove -u remove'
 # alias zypi='sudo zypper install'
 
-# Update joplin
+# Update joplin and remove it.
 alias updatejoplin='wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash'
+alias removejoplin='rm -fr $(find ~ -regex .*local.*joplin.*) && rm -fr ~/.joplin'
 
 export GUROBI_HOME="/opt/gurobi1101/linux64"
 export PATH="${PATH}:${GUROBI_HOME}/bin"
